@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./ingredients.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-color: rgba(52, 58, 64, 0.8); 
+    color: #7df81f;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: rgba(52, 58, 64, 0.8); 
+    padding: 10px;
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: rgb(36, 113, 196);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+.add-recipe-btn-container {
+    text-align: center; 
+    margin: 15px 0; 
+}
+
+.add-recipe-btn-container button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: rgb(22, 56, 36);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.add-recipe-btn-container button:hover {
+    background-color: #0056b3; 
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+
+input[type="text"], textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none; 
+    border-color: #007bff; 
+}
+
+#recipe-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.9); 
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

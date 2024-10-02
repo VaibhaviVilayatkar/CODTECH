@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('./flat-lay.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tagline {
+    color: #cce513;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #209bd3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    background: rgba(68, 43, 19, 0.85); 
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffcc00;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 15px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .delete {
+    background: #e74c3c;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+li .delete:hover {
+    background: #dd2b17;
+}

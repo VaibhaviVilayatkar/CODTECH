@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Organizer</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="add-recipe-btn-container">
+        <button id="add-recipe-btn">Add Recipe</button>
+    </div>
+
+    <main>
+        <section id="recipe-form" class="hidden">
+            <h2>Add a New Recipe</h2>
+            <form id="form">
+                <div class="input-group">
+                    <label for="recipe-title">Recipe Title</label>
+                    <input type="text" id="recipe-title" placeholder="Recipe Title" required>
+                </div>
+                <div class="input-group">
+                    <label for="recipe-ingredients">Ingredients</label>
+                    <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="recipe-instructions">Instructions</label>
+                    <textarea id="recipe-instructions" placeholder="Instructions" required></textarea>
+                </div>
+                <button type="submit">Save Recipe</button>
+            </form>
+        </section>
+        
+        <section id="recipe-list">
+            <h2>Your Recipes</h2>
+            <ul id="recipes"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
